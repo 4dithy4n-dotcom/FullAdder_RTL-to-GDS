@@ -1,0 +1,7 @@
+read_verilog src/fulladder.v
+hierarchy -top fulladder
+proc
+opt
+techmap
+opt
+write_verilog results/synthesis/fulladder_synth.v
